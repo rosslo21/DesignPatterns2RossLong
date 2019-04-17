@@ -25,8 +25,7 @@ public class CustomerController {
 	
 	@RequestMapping(value = "/registerCustomer", method = RequestMethod.POST)
 	public Customer registerCustomer(@RequestBody Customer customer) {
-		return customerService.addCustomer(customer);
-		
+		return customerService.addCustomer(customer);	
 	}
 	
 	@RequestMapping(value = "/loginCustomer", method = RequestMethod.POST)
