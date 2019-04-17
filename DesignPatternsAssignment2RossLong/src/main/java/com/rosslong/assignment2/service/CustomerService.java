@@ -4,13 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.rosslong.assignment2.model.Customer;
 import com.rosslong.assignment2.repository.CustomerRepository;
 
 
-
+@Service
 public class CustomerService {
+	
 	@Autowired
 	private CustomerRepository customerRepository;
 

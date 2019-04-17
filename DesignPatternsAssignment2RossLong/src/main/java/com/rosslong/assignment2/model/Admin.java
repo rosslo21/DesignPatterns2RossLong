@@ -5,8 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+
 @Entity
-public class Customer {
+public class Admin {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
@@ -16,7 +17,7 @@ public class Customer {
 	private String password;
 	
 	
-	public Customer() {
+	public Admin() {
 		
 	}
 	

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FypApplication {
+public class PatterApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FypApplication.class, args);
+		SpringApplication.run(PatterApplication.class, args);
 	}
 
 }

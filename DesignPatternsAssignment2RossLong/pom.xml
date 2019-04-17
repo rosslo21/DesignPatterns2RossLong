@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rosslong</groupId>
-	<artifactId>DesignPatternsAssignmentRossLong</artifactId>
+	<artifactId>DesignPatternsAssignment2RossLong</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DesignPatternsAssignmentRossLong</name>
+	<name>DesignPatternsAssignment2RossLong</name>
 	<description>FYP project - Spring Boot</description>
 
 	<properties>
